@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   packtpub-downloader:
-    image: python:3.6.0
+    image: python:3.9.12
     container_name: "packtpub-downloader"
     env_file:
       - data.env
